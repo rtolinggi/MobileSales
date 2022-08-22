@@ -11,8 +11,10 @@ const theme = createTheme({
     Button: {
       color: 'primary',
       size: 'lg',
+      radius: 6,
       containerStyle: {
         width: '100%',
+        elevation: 8,
       },
       uppercase: true,
     },
